@@ -5,11 +5,12 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 body{
     text-align: center;
+    background-color: #FFFF99;
 }
 
 #container{
@@ -19,7 +20,7 @@ body{
 }
     
 h1 {
-    font: bold 40px sans-serif, verdana;
+    font: bold 40px Microsoft Sans Serif, verdana;
     cursor: pointer;
 }
 
@@ -28,7 +29,7 @@ h2 {
 }
 
 #menu {
-    background: #CCCCCC;
+    background: #FF9933;
     padding: 5px 15px;
 }
 
@@ -36,7 +37,7 @@ h2 {
     display: inline-block;
     list-style: none;
     padding: 7px;
-    font: bold 16px sans-serif, verdana;
+    font: bold 16px Microsoft Sans Serif, verdana;
     color: inherit;
     
     
@@ -57,7 +58,7 @@ h2 {
     margin: 20px;
 }
 
-    #columna {
+ #columna {
     float: left;
     width: 220px;
     margin: 20px 0px;
@@ -65,9 +66,11 @@ h2 {
     background: #CCCCCC;
 }
 
+
 #pie {
     clear: both;
     text-align: center;
     padding: 20px;
     border-top: 2px solid #999999;
+
     }
