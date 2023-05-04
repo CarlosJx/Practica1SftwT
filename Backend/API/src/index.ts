@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
-app.use(/api/persona',personaRouter);
+app.use('/api/persona',personaRouter);
 
 app.get("/",(req:express.Request, res:express.Response)=>{
     res.send("Esta es la respuesta desde la API por GET");
