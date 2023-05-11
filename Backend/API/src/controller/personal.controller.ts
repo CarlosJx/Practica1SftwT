@@ -10,3 +10,12 @@ export const GetPersonas = async (): Promise<persona[]> => {
         throw error;
     }
 }
+
+export const AddPersona = async (P: persona): Promise <boolean> => {
+    try {
+        return Daopersona.CrearPersona(P);
+    } catch (error) {
+        throw error;
+        
+    }
+}
